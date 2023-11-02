@@ -15,6 +15,7 @@
 		82A8EC602AF365EB00CCED34 /* InnovationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8EC5F2AF365EB00CCED34 /* InnovationAppUITests.swift */; };
 		82A8EC622AF365EB00CCED34 /* InnovationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8EC612AF365EB00CCED34 /* InnovationAppUITestsLaunchTests.swift */; };
 		82A8EC702AF3664C00CCED34 /* LearningZonePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 82A8EC6F2AF3664C00CCED34 /* LearningZonePackage */; };
+		82A8EC762AF38D5200CCED34 /* CommunicationZonePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 82A8EC752AF38D5200CCED34 /* CommunicationZonePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A8EC762AF38D5200CCED34 /* CommunicationZonePackage in Frameworks */,
 				82A8EC702AF3664C00CCED34 /* LearningZonePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +149,7 @@
 			name = InnovationApp;
 			packageProductDependencies = (
 				82A8EC6F2AF3664C00CCED34 /* LearningZonePackage */,
+				82A8EC752AF38D5200CCED34 /* CommunicationZonePackage */,
 			);
 			productName = InnovationApp;
 			productReference = 82A8EC412AF365E800CCED34 /* InnovationApp.app */;
@@ -222,6 +225,7 @@
 			mainGroup = 82A8EC382AF365E800CCED34;
 			packageReferences = (
 				82A8EC6E2AF3664C00CCED34 /* XCRemoteSwiftPackageReference "LearningZonePackage" */,
+				82A8EC742AF38D5200CCED34 /* XCRemoteSwiftPackageReference "CommunicationZonePackage" */,
 			);
 			productRefGroup = 82A8EC422AF365E800CCED34 /* Products */;
 			projectDirPath = "";
@@ -606,6 +610,14 @@
 				version = 0.0.2;
 			};
 		};
+		82A8EC742AF38D5200CCED34 /* XCRemoteSwiftPackageReference "CommunicationZonePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohsenvp/CommunicationZonePackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -613,6 +625,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 82A8EC6E2AF3664C00CCED34 /* XCRemoteSwiftPackageReference "LearningZonePackage" */;
 			productName = LearningZonePackage;
+		};
+		82A8EC752AF38D5200CCED34 /* CommunicationZonePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82A8EC742AF38D5200CCED34 /* XCRemoteSwiftPackageReference "CommunicationZonePackage" */;
+			productName = CommunicationZonePackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

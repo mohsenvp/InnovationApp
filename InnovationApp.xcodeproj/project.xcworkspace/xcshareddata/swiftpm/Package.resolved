@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "communicationzonepackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mohsenvp/CommunicationZonePackage.git",
+      "state" : {
+        "revision" : "2d75d526bb755eb369d369ffdc26e3734e02a8a8",
+        "version" : "0.0.5"
+      }
+    },
+    {
       "identity" : "learningzonepackage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mohsenvp/LearningZonePackage.git",
