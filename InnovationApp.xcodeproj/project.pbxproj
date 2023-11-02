@@ -14,6 +14,7 @@
 		82A8EC562AF365EB00CCED34 /* InnovationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8EC552AF365EB00CCED34 /* InnovationAppTests.swift */; };
 		82A8EC602AF365EB00CCED34 /* InnovationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8EC5F2AF365EB00CCED34 /* InnovationAppUITests.swift */; };
 		82A8EC622AF365EB00CCED34 /* InnovationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8EC612AF365EB00CCED34 /* InnovationAppUITestsLaunchTests.swift */; };
+		82A8EC702AF3664C00CCED34 /* LearningZonePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 82A8EC6F2AF3664C00CCED34 /* LearningZonePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A8EC702AF3664C00CCED34 /* LearningZonePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = InnovationApp;
+			packageProductDependencies = (
+				82A8EC6F2AF3664C00CCED34 /* LearningZonePackage */,
+			);
 			productName = InnovationApp;
 			productReference = 82A8EC412AF365E800CCED34 /* InnovationApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 82A8EC382AF365E800CCED34;
+			packageReferences = (
+				82A8EC6E2AF3664C00CCED34 /* XCRemoteSwiftPackageReference "LearningZonePackage" */,
+			);
 			productRefGroup = 82A8EC422AF365E800CCED34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82A8EC6E2AF3664C00CCED34 /* XCRemoteSwiftPackageReference "LearningZonePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohsenvp/LearningZonePackage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82A8EC6F2AF3664C00CCED34 /* LearningZonePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82A8EC6E2AF3664C00CCED34 /* XCRemoteSwiftPackageReference "LearningZonePackage" */;
+			productName = LearningZonePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82A8EC392AF365E800CCED34 /* Project object */;
 }

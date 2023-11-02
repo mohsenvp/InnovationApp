@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import LearningZonePackage
 
 struct ContentView: View {
+    init() {
+        SDK.doSomeWork()
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")

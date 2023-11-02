@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "learningzonepackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mohsenvp/LearningZonePackage.git",
+      "state" : {
+        "revision" : "437161269cf6b25c71e1d5828bb90193569a37c8",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
