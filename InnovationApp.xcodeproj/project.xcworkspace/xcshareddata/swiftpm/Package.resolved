@@ -1,23 +1,69 @@
 {
+  "originHash" : "6329efa2a4e3d3dc98dcdfbd187c1dbf770f7261a7dd2e7e59ffa8d9210a77fc",
   "pins" : [
     {
-      "identity" : "communicationzonepackage",
+      "identity" : "generative-ai-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mohsenvp/CommunicationZonePackage.git",
+      "location" : "https://github.com/google/generative-ai-swift",
       "state" : {
-        "revision" : "2d75d526bb755eb369d369ffdc26e3734e02a8a8",
-        "version" : "0.0.5"
+        "revision" : "44b8ce120425f9cf53ca756f3434ca2c2696f8bd",
+        "version" : "0.5.6"
       }
     },
     {
-      "identity" : "learningzonepackage",
+      "identity" : "ios%20-%20contact%20card",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mohsenvp/LearningZonePackage.git",
+      "location" : "https://dev.azure.com/Desap/Knektu%20V3/_git/IOS%20-%20Contact%20Card",
       "state" : {
-        "revision" : "437161269cf6b25c71e1d5828bb90193569a37c8",
-        "version" : "0.0.2"
+        "revision" : "33e9cf9d08b743b593552491eae2b58f08b420d0",
+        "version" : "0.0.32"
+      }
+    },
+    {
+      "identity" : "ios%20-%20learning%20zone%20framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://Desap@dev.azure.com/Desap/Knektu%20V3/_git/IOS%20-%20Learning%20Zone%20Framework",
+      "state" : {
+        "revision" : "905c4153da9755db2fbceed860c1a0f48aaa4fba",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "ios%20-%20online%20zone%20framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://Desap@dev.azure.com/Desap/Knektu%20V3/_git/IOS%20-%20Online%20Zone%20Framework",
+      "state" : {
+        "revision" : "9d1949ade0094062a72df3c342906faaf344ac8f",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "ios%20-%20ui%20components",
+      "kind" : "remoteSourceControl",
+      "location" : "https://Desap@dev.azure.com/Desap/Knektu%20V3/_git/IOS%20-%20UI%20components",
+      "state" : {
+        "revision" : "3b705b10d6c271a67a2313642a59c4c3e168193c",
+        "version" : "0.0.34"
+      }
+    },
+    {
+      "identity" : "ocr-poc-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://Desap@dev.azure.com/Desap/ICE/_git/OCR-POC-IOS",
+      "state" : {
+        "revision" : "92dbccfd25e91f96a6b69661ce0eafa12e615f34",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "be9dbcc7b86811bc131539a20c6f9c2d3e56919f",
+        "version" : "2.9.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
