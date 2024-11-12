@@ -10,7 +10,6 @@ import SwiftUI
 
 class ZonesViewModel: ObservableObject {
     @Published var zones: [EachZoneModel] = []
-    
 }
 
 
@@ -31,19 +30,3 @@ struct StoriesView_Previews_sample: PreviewProvider {
         return viewModel
     }
 }
-
-
-//MARK: Use Case
-
-//struct ContentView: View {
-//    @StateObject var viewModel = StoriesViewModel()
-//
-//    var body: some View {
-//        StoriesView(viewModel: viewModel)
-//            .onAppear {
-//                viewModel.stories = [
-//                    // Add the stories you want here
-//                ]
-//            }
-//    }
-//}
