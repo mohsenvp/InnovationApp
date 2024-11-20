@@ -25,6 +25,7 @@ struct ContentView: View {
         return viewModel
     }
     
+    
     var body: some View {
         NavigationView{
             ScrollView{
