@@ -45,7 +45,11 @@ struct Zone: View {
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
             }
-
+//            .onTapGesture {
+//
+//                print(eachZone.title)
+//
+//            }
         }
 
     }
