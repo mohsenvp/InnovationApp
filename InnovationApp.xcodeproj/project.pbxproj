@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8213B4A32BFB37D800FCF30A /* LearningZone in Frameworks */ = {isa = PBXBuildFile; productRef = 8213B4A22BFB37D800FCF30A /* LearningZone */; };
+		82268CE62CFEC91100B6876E /* CollaborationZone in Frameworks */ = {isa = PBXBuildFile; productRef = 82268CE52CFEC91100B6876E /* CollaborationZone */; };
+		82268CE92CFEF12800B6876E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82268CE82CFEF12800B6876E /* LoginView.swift */; };
+		82268CEB2CFEF6CF00B6876E /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82268CEA2CFEF6CF00B6876E /* InitialView.swift */; };
 		823DAA7B2B0C60E000EFA466 /* ZonesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DAA782B0C60DF00EFA466 /* ZonesViewModel.swift */; };
 		823DAA7C2B0C60E000EFA466 /* ZoneViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DAA792B0C60DF00EFA466 /* ZoneViewBase.swift */; };
 		823DAA7D2B0C60E000EFA466 /* EachZoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DAA7A2B0C60DF00EFA466 /* EachZoneModel.swift */; };
@@ -44,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82268CE82CFEF12800B6876E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		82268CEA2CFEF6CF00B6876E /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		823DAA782B0C60DF00EFA466 /* ZonesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZonesViewModel.swift; sourceTree = "<group>"; };
 		823DAA792B0C60DF00EFA466 /* ZoneViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneViewBase.swift; sourceTree = "<group>"; };
 		823DAA7A2B0C60DF00EFA466 /* EachZoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EachZoneModel.swift; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 				8213B4A32BFB37D800FCF30A /* LearningZone in Frameworks */,
 				82C3F4122C77729A00520CB6 /* OnlineZone in Frameworks */,
 				82C3F40F2C77727C00520CB6 /* ContactCard in Frameworks */,
+				82268CE62CFEC91100B6876E /* CollaborationZone in Frameworks */,
 				826001372C90499A00594B20 /* OCR-POC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,11 +98,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82268CE22CFEC8F500B6876E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82268CE72CFEF11100B6876E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				82268CE82CFEF12800B6876E /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		823DAA6F2B0C5BFB00EFA466 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				82268CE72CFEF11100B6876E /* Login */,
 				8282988B2B1DA2B300A1551C /* LearningZone */,
 				823DAA772B0C60D300EFA466 /* Zone */,
+				82268CEA2CFEF6CF00B6876E /* InitialView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -125,6 +148,7 @@
 				82B9DF2C2AFA00AE00B262EC /* InnovationApp */,
 				82B9DF3D2AFA00B000B262EC /* InnovationAppTests */,
 				82B9DF472AFA00B000B262EC /* InnovationAppUITests */,
+				82268CE22CFEC8F500B6876E /* Frameworks */,
 				82B9DF2B2AFA00AE00B262EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,6 +224,7 @@
 				82C3F40E2C77727C00520CB6 /* ContactCard */,
 				82C3F4112C77729A00520CB6 /* OnlineZone */,
 				826001362C90499A00594B20 /* OCR-POC */,
+				82268CE52CFEC91100B6876E /* CollaborationZone */,
 			);
 			productName = InnovationApp;
 			productReference = 82B9DF2A2AFA00AE00B262EC /* InnovationApp.app */;
@@ -279,6 +304,7 @@
 				82C3F40D2C77727C00520CB6 /* XCRemoteSwiftPackageReference "IOS - Contact Card" */,
 				82C3F4102C77729A00520CB6 /* XCRemoteSwiftPackageReference "IOS - Online Zone Framework" */,
 				826001352C90499A00594B20 /* XCRemoteSwiftPackageReference "OCR-POC-IOS" */,
+				82D8969D2CFEC64D00215214 /* XCRemoteSwiftPackageReference "IOS - ICE Innovation - Collaboration Zone" */,
 			);
 			productRefGroup = 82B9DF2B2AFA00AE00B262EC /* Products */;
 			projectDirPath = "";
@@ -329,6 +355,8 @@
 				82B9DF302AFA00AE00B262EC /* ContentView.swift in Sources */,
 				823DAA7D2B0C60E000EFA466 /* EachZoneModel.swift in Sources */,
 				823DAA7C2B0C60E000EFA466 /* ZoneViewBase.swift in Sources */,
+				82268CEB2CFEF6CF00B6876E /* InitialView.swift in Sources */,
+				82268CE92CFEF12800B6876E /* LoginView.swift in Sources */,
 				82B9DF2E2AFA00AE00B262EC /* InnovationAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,7 +520,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"InnovationApp/Preview Content\"";
 				DEVELOPMENT_TEAM = UB3B42RP75;
 				ENABLE_PREVIEWS = YES;
@@ -531,7 +559,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"InnovationApp/Preview Content\"";
 				DEVELOPMENT_TEAM = UB3B42RP75;
 				ENABLE_PREVIEWS = YES;
@@ -713,6 +741,14 @@
 				minimumVersion = 0.0.7;
 			};
 		};
+		82D8969D2CFEC64D00215214 /* XCRemoteSwiftPackageReference "IOS - ICE Innovation - Collaboration Zone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://Desap@dev.azure.com/Desap/ICE/_git/IOS%20-%20ICE%20Innovation%20-%20Collaboration%20Zone";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -720,6 +756,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8213B4A12BFB37D800FCF30A /* XCRemoteSwiftPackageReference "IOS - Learning Zone Framework" */;
 			productName = LearningZone;
+		};
+		82268CE52CFEC91100B6876E /* CollaborationZone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82D8969D2CFEC64D00215214 /* XCRemoteSwiftPackageReference "IOS - ICE Innovation - Collaboration Zone" */;
+			productName = CollaborationZone;
 		};
 		826001362C90499A00594B20 /* OCR-POC */ = {
 			isa = XCSwiftPackageProductDependency;
