@@ -1,5 +1,5 @@
 {
-  "originHash" : "6329efa2a4e3d3dc98dcdfbd187c1dbf770f7261a7dd2e7e59ffa8d9210a77fc",
+  "originHash" : "78dbe6fa775b227c6121b156e53957627c4a1b0b7fdf36356d566feba663d6f4",
   "pins" : [
     {
       "identity" : "generative-ai-swift",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "33e9cf9d08b743b593552491eae2b58f08b420d0",
         "version" : "0.0.32"
+      }
+    },
+    {
+      "identity" : "ios%20-%20ice%20innovation%20-%20collaboration%20zone",
+      "kind" : "remoteSourceControl",
+      "location" : "https://Desap@dev.azure.com/Desap/ICE/_git/IOS%20-%20ICE%20Innovation%20-%20Collaboration%20Zone",
+      "state" : {
+        "revision" : "c1d004315b05d3087e6e83b454f646fe489d76db",
+        "version" : "0.0.6"
       }
     },
     {
